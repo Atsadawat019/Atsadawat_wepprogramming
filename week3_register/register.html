@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br />
+    <center>
+      <h1>แบบฟอร์มลงทะเบียนนักศึกษาศิษย์เก่า IT และ IS</h1>
+      <br />
+
+      <style>
+        div {
+          width: 660px;
+          height: 600px;
+        }
+
+        P {
+          text-align: left;
+        }
+      </style>
+
+      <div>
+        <p>
+          <label for="name">ชื่อ - นามสกุล : </label>
+          <input type="text" name="name" size="20" maxlength="100" />
+        </p>
+
+        <p>
+          <label for="name"> รหัสนักศึกษา : </label>
+          <input type="text" name="id_student" size="15" maxlength="10" />
+        </p>
+
+        <p>
+          <label for="name">เพศ : </label>
+          <input type="radio" name="gender" value="men" checked />ชาย
+          <input type="radio" name="gender" value="men" />หญิง
+        </p>
+
+        <p>
+          <label for="name">ปีที่เข้าการศึกษา : </label>
+          <input type="text" name="year" size="3" maxlength="4" />
+        </p>
+
+        <p>
+          <label for="address">ที่อยู่ : </label>
+          <textarea name="address" cols="20" rows="5"></textarea>
+        </p>
+
+        <p>
+          <label for="email">Email : </label>
+          <input type="email" name="email" size="20" maxlength="30" />
+        </p>
+
+        <p>
+          <label for="tel">เบอร์โทร : </label>
+          <input type="tel" name="tel" size="12" maxlength="10" />
+        </p>
+
+        <p>
+          <label for="course">หลักสูตร : </label>
+          <input type="radio" name="course" value="IT" checked />IT
+          <input type="radio" name="course" value="IS" />IS
+        </p>
+
+        <p>
+          <label for="name">อาชีพปัจจุบัน : </label>
+          <input type="text" name="job" size="20" maxlength="30" />
+        </p>
+
+        <p>
+          <label for="job_type">ประเภทงานที่ทำ : </label>
+          <select name="job_type" id="">
+            <option value="Web Developer">Web Developer</option>
+            <option value="SA">SA</option>
+            <option value="Graphic Design">Graphic Design</option>
+            <option value="DigitalMarketing">Digital Marketing</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="name">อัปโหลดรูปตัวเอง : </label>
+          <input type="file" name="picture" />
+          <input type="submit" value="Upload" />
+        </p>
+
+        <p><br /><input type="submit" value="ลงทะเบียน" /></p>
+      </div>
+    </center>
+</body>
+</html>
