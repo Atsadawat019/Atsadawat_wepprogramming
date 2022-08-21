@@ -63,7 +63,9 @@
     width: 170px;
     height: 100px;
   }
-  
+  #secondmenu2{
+    display: none;
+  }
   
 }
 
